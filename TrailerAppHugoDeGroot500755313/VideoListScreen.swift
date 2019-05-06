@@ -114,6 +114,7 @@ extension VideoListScreen: UITableViewDataSource, UITableViewDelegate {
         let selectedTrailer = videos[indexPath.row]
         
         let destinationVC = InfoViewController()
+        destinationVC.selectedTrailer = selectedTrailer
         show(destinationVC, sender: self)
         
     }
