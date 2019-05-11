@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA869B0C227F2D87008E50E7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA869B0B227F2D87008E50E7 /* Localizable.strings */; };
+		FAC5D6E7226CB06D00AD3CFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5D6E6226CB06D00AD3CFF /* AppDelegate.swift */; };
+		FAC5D6EC226CB06D00AD3CFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC5D6EA226CB06D00AD3CFF /* Main.storyboard */; };
+		FAC5D6EE226CB06F00AD3CFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC5D6ED226CB06F00AD3CFF /* Assets.xcassets */; };
+		FAC5D6F1226CB06F00AD3CFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC5D6EF226CB06F00AD3CFF /* LaunchScreen.storyboard */; };
+		FAC5D6FC226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5D6FB226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313Tests.swift */; };
+		FAC5D707226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5D706226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313UITests.swift */; };
+		FAC5D718226DF67A00AD3CFF /* VideoListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5D717226DF67A00AD3CFF /* VideoListScreen.swift */; };
+		FAC5D71C226DFADF00AD3CFF /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5D71B226DFADF00AD3CFF /* Video.swift */; };
+		FAC5D721226F187500AD3CFF /* TrailerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5D71F226F187500AD3CFF /* TrailerTableViewCell.swift */; };
+		FAC5D722226F187500AD3CFF /* TrailerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC5D720226F187500AD3CFF /* TrailerTableViewCell.xib */; };
+		FAC5D72D2270672200AD3CFF /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5D72B2270672200AD3CFF /* InfoViewController.swift */; };
+		FAC5D72E2270672200AD3CFF /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC5D72C2270672200AD3CFF /* InfoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAC5D6F8226CB07000AD3CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC5D6DB226CB06D00AD3CFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC5D6E2226CB06D00AD3CFF;
+			remoteInfo = TrailerAppHugoDeGroot500755313;
+		};
+		FAC5D703226CB07000AD3CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC5D6DB226CB06D00AD3CFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC5D6E2226CB06D00AD3CFF;
+			remoteInfo = TrailerAppHugoDeGroot500755313;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA869B0B227F2D87008E50E7 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		FAC5D6E3226CB06D00AD3CFF /* TrailerAppHugoDeGroot500755313.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailerAppHugoDeGroot500755313.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC5D6E6226CB06D00AD3CFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAC5D6EB226CB06D00AD3CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC5D6ED226CB06F00AD3CFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC5D6F0226CB06F00AD3CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAC5D6F2226CB06F00AD3CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC5D6F7226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailerAppHugoDeGroot500755313Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC5D6FB226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerAppHugoDeGroot500755313Tests.swift; sourceTree = "<group>"; };
+		FAC5D6FD226CB07000AD3CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC5D702226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailerAppHugoDeGroot500755313UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC5D706226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerAppHugoDeGroot500755313UITests.swift; sourceTree = "<group>"; };
+		FAC5D708226CB07000AD3CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC5D717226DF67A00AD3CFF /* VideoListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListScreen.swift; sourceTree = "<group>"; };
+		FAC5D71B226DFADF00AD3CFF /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		FAC5D71F226F187500AD3CFF /* TrailerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerTableViewCell.swift; sourceTree = "<group>"; };
+		FAC5D720226F187500AD3CFF /* TrailerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrailerTableViewCell.xib; sourceTree = "<group>"; };
+		FAC5D72B2270672200AD3CFF /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		FAC5D72C2270672200AD3CFF /* InfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC5D6E0226CB06D00AD3CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC5D6F4226CB07000AD3CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC5D6FF226CB07000AD3CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC5D6DA226CB06D00AD3CFF = {
+			isa = PBXGroup;
+			children = (
+				FAC5D6E5226CB06D00AD3CFF /* TrailerAppHugoDeGroot500755313 */,
+				FAC5D6FA226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313Tests */,
+				FAC5D705226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313UITests */,
+				FAC5D6E4226CB06D00AD3CFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC5D6E4226CB06D00AD3CFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC5D6E3226CB06D00AD3CFF /* TrailerAppHugoDeGroot500755313.app */,
+				FAC5D6F7226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313Tests.xctest */,
+				FAC5D702226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC5D6E5226CB06D00AD3CFF /* TrailerAppHugoDeGroot500755313 */ = {
+			isa = PBXGroup;
+			children = (
+				FAC5D6E6226CB06D00AD3CFF /* AppDelegate.swift */,
+				FAC5D717226DF67A00AD3CFF /* VideoListScreen.swift */,
+				FAC5D71F226F187500AD3CFF /* TrailerTableViewCell.swift */,
+				FAC5D720226F187500AD3CFF /* TrailerTableViewCell.xib */,
+				FAC5D71B226DFADF00AD3CFF /* Video.swift */,
+				FAC5D6EA226CB06D00AD3CFF /* Main.storyboard */,
+				FAC5D6ED226CB06F00AD3CFF /* Assets.xcassets */,
+				FAC5D6EF226CB06F00AD3CFF /* LaunchScreen.storyboard */,
+				FAC5D6F2226CB06F00AD3CFF /* Info.plist */,
+				FAC5D72B2270672200AD3CFF /* InfoViewController.swift */,
+				FAC5D72C2270672200AD3CFF /* InfoViewController.xib */,
+				FA869B0B227F2D87008E50E7 /* Localizable.strings */,
+			);
+			path = TrailerAppHugoDeGroot500755313;
+			sourceTree = "<group>";
+		};
+		FAC5D6FA226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC5D6FB226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313Tests.swift */,
+				FAC5D6FD226CB07000AD3CFF /* Info.plist */,
+			);
+			path = TrailerAppHugoDeGroot500755313Tests;
+			sourceTree = "<group>";
+		};
+		FAC5D705226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC5D706226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313UITests.swift */,
+				FAC5D708226CB07000AD3CFF /* Info.plist */,
+			);
+			path = TrailerAppHugoDeGroot500755313UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC5D6E2226CB06D00AD3CFF /* TrailerAppHugoDeGroot500755313 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC5D70B226CB07000AD3CFF /* Build configuration list for PBXNativeTarget "TrailerAppHugoDeGroot500755313" */;
+			buildPhases = (
+				FAC5D6DF226CB06D00AD3CFF /* Sources */,
+				FAC5D6E0226CB06D00AD3CFF /* Frameworks */,
+				FAC5D6E1226CB06D00AD3CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrailerAppHugoDeGroot500755313;
+			productName = TrailerAppHugoDeGroot500755313;
+			productReference = FAC5D6E3226CB06D00AD3CFF /* TrailerAppHugoDeGroot500755313.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAC5D6F6226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC5D70E226CB07000AD3CFF /* Build configuration list for PBXNativeTarget "TrailerAppHugoDeGroot500755313Tests" */;
+			buildPhases = (
+				FAC5D6F3226CB07000AD3CFF /* Sources */,
+				FAC5D6F4226CB07000AD3CFF /* Frameworks */,
+				FAC5D6F5226CB07000AD3CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC5D6F9226CB07000AD3CFF /* PBXTargetDependency */,
+			);
+			name = TrailerAppHugoDeGroot500755313Tests;
+			productName = TrailerAppHugoDeGroot500755313Tests;
+			productReference = FAC5D6F7226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAC5D701226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC5D711226CB07000AD3CFF /* Build configuration list for PBXNativeTarget "TrailerAppHugoDeGroot500755313UITests" */;
+			buildPhases = (
+				FAC5D6FE226CB07000AD3CFF /* Sources */,
+				FAC5D6FF226CB07000AD3CFF /* Frameworks */,
+				FAC5D700226CB07000AD3CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC5D704226CB07000AD3CFF /* PBXTargetDependency */,
+			);
+			name = TrailerAppHugoDeGroot500755313UITests;
+			productName = TrailerAppHugoDeGroot500755313UITests;
+			productReference = FAC5D702226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC5D6DB226CB06D00AD3CFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Wim de Groot";
+				TargetAttributes = {
+					FAC5D6E2226CB06D00AD3CFF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FAC5D6F6226CB07000AD3CFF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FAC5D6E2226CB06D00AD3CFF;
+					};
+					FAC5D701226CB07000AD3CFF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FAC5D6E2226CB06D00AD3CFF;
+					};
+				};
+			};
+			buildConfigurationList = FAC5D6DE226CB06D00AD3CFF /* Build configuration list for PBXProject "TrailerAppHugoDeGroot500755313" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC5D6DA226CB06D00AD3CFF;
+			productRefGroup = FAC5D6E4226CB06D00AD3CFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC5D6E2226CB06D00AD3CFF /* TrailerAppHugoDeGroot500755313 */,
+				FAC5D6F6226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313Tests */,
+				FAC5D701226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC5D6E1226CB06D00AD3CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC5D6F1226CB06F00AD3CFF /* LaunchScreen.storyboard in Resources */,
+				FA869B0C227F2D87008E50E7 /* Localizable.strings in Resources */,
+				FAC5D6EE226CB06F00AD3CFF /* Assets.xcassets in Resources */,
+				FAC5D722226F187500AD3CFF /* TrailerTableViewCell.xib in Resources */,
+				FAC5D72E2270672200AD3CFF /* InfoViewController.xib in Resources */,
+				FAC5D6EC226CB06D00AD3CFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC5D6F5226CB07000AD3CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC5D700226CB07000AD3CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC5D6DF226CB06D00AD3CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC5D721226F187500AD3CFF /* TrailerTableViewCell.swift in Sources */,
+				FAC5D718226DF67A00AD3CFF /* VideoListScreen.swift in Sources */,
+				FAC5D6E7226CB06D00AD3CFF /* AppDelegate.swift in Sources */,
+				FAC5D71C226DFADF00AD3CFF /* Video.swift in Sources */,
+				FAC5D72D2270672200AD3CFF /* InfoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC5D6F3226CB07000AD3CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC5D6FC226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC5D6FE226CB07000AD3CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC5D707226CB07000AD3CFF /* TrailerAppHugoDeGroot500755313UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAC5D6F9226CB07000AD3CFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC5D6E2226CB06D00AD3CFF /* TrailerAppHugoDeGroot500755313 */;
+			targetProxy = FAC5D6F8226CB07000AD3CFF /* PBXContainerItemProxy */;
+		};
+		FAC5D704226CB07000AD3CFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC5D6E2226CB06D00AD3CFF /* TrailerAppHugoDeGroot500755313 */;
+			targetProxy = FAC5D703226CB07000AD3CFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAC5D6EA226CB06D00AD3CFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC5D6EB226CB06D00AD3CFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAC5D6EF226CB06F00AD3CFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC5D6F0226CB06F00AD3CFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC5D709226CB07000AD3CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAC5D70A226CB07000AD3CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC5D70C226CB07000AD3CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrailerAppHugoDeGroot500755313/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.degroot.hugo.TrailerAppHugoDeGroot500755313;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC5D70D226CB07000AD3CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrailerAppHugoDeGroot500755313/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.degroot.hugo.TrailerAppHugoDeGroot500755313;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAC5D70F226CB07000AD3CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrailerAppHugoDeGroot500755313Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.degroot.hugo.TrailerAppHugoDeGroot500755313Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrailerAppHugoDeGroot500755313.app/TrailerAppHugoDeGroot500755313";
+			};
+			name = Debug;
+		};
+		FAC5D710226CB07000AD3CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrailerAppHugoDeGroot500755313Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.degroot.hugo.TrailerAppHugoDeGroot500755313Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrailerAppHugoDeGroot500755313.app/TrailerAppHugoDeGroot500755313";
+			};
+			name = Release;
+		};
+		FAC5D712226CB07000AD3CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrailerAppHugoDeGroot500755313UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.degroot.hugo.TrailerAppHugoDeGroot500755313UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrailerAppHugoDeGroot500755313;
+			};
+			name = Debug;
+		};
+		FAC5D713226CB07000AD3CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrailerAppHugoDeGroot500755313UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.degroot.hugo.TrailerAppHugoDeGroot500755313UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrailerAppHugoDeGroot500755313;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC5D6DE226CB06D00AD3CFF /* Build configuration list for PBXProject "TrailerAppHugoDeGroot500755313" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC5D709226CB07000AD3CFF /* Debug */,
+				FAC5D70A226CB07000AD3CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC5D70B226CB07000AD3CFF /* Build configuration list for PBXNativeTarget "TrailerAppHugoDeGroot500755313" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC5D70C226CB07000AD3CFF /* Debug */,
+				FAC5D70D226CB07000AD3CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC5D70E226CB07000AD3CFF /* Build configuration list for PBXNativeTarget "TrailerAppHugoDeGroot500755313Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC5D70F226CB07000AD3CFF /* Debug */,
+				FAC5D710226CB07000AD3CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC5D711226CB07000AD3CFF /* Build configuration list for PBXNativeTarget "TrailerAppHugoDeGroot500755313UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC5D712226CB07000AD3CFF /* Debug */,
+				FAC5D713226CB07000AD3CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC5D6DB226CB06D00AD3CFF /* Project object */;
+}
